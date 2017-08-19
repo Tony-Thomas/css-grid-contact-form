@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CSS Grid Contact Form</title>
+    <link rel="stylesheet" href=" https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css">
+    <link href="https://fastcdn.org/Animate.css/3.4.0/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1 class="brand"><span>ACME</span> Web Design</h1>
-        <div class="wrapper">
+        <div class="wrapper animated bounceInLeft">
             <div class="company-info">
                 <h3>ACME Web Design</h3>
                 <ul>
-                    <li>44 Something Street</li>
-                    <li>555-555-5555</li>
-                    <li>test@acme.com</li>
+                    <li><i class="fa fa-road"></i> 44 Something Street</li>
+                    <li><i class="fa fa-phone"></i> 555-555-5555</li>
+                    <li><i class="fa fa-envelope"></i> test@acme.com</li>
                 </ul>
             </div>
             <div class="contact">
@@ -38,11 +40,14 @@
                         <label>Name</label>
                         <input type="text" name="phone">
                     </p>
-                    <p>
+                    <p class="full">
                         <label>Message</label>
                         <textarea name="message" rows="5"></textarea>
                     </p>
-                    <button>Submit</button>
+                    <p class="full">
+                        <button>Submit</button>
+                    </p>
+
 
                 </form>
             </div>
